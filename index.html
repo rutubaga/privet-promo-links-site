@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#7454f5">
+<title>Привет · Макеты акций</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./" aria-label="Главная"><span class="brand-mark">п</span><span>привет<span class="brand-dot">!</span></span></a><span class="top-label">Рабочие материалы</span><span class="month-pill">Октябрь 2026</span></header>
+<main>
+<div class="intro"><div><div class="eyebrow">ВСЁ ДЛЯ ПЕРЕДАЧИ МАКЕТОВ</div><h1>Ссылки под рукой<span>.</span></h1><p>Макеты в Figma и Word-файлы — по датам начала акций.</p></div><a class="zip-button" href="./download/all.zip" download><span class="download-icon">↓</span><span>Скачать всё ZIP<small>Word-файлы в папках по датам</small></span></a></div>
+<section class="stats" aria-label="Сводка"><div><strong id="total">44</strong><span>акции в октябре</span></div><div><strong id="found">43</strong><span>ссылки на макеты</span></div><div><strong id="opened">—</strong><span>проверено</span></div><div><strong id="pending">—</strong><span>ждут проверки</span></div></section>
+<div class="catalog-toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Найти партнёра или акцию" aria-label="Поиск партнёра или акции"><kbd>/</kbd></label><label class="sort-label">Даты<select id="sort" aria-label="Порядок дат"><option value="desc">Сначала поздние</option><option value="asc">Сначала ранние</option></select></label></div>
+<div class="filters" role="group" aria-label="Фильтр доступа"><button class="selected" data-filter="all">Все <span id="all-count">44</span></button><button data-filter="checked">Проверены</button><i id="issue-count" hidden></i><button data-filter="unknown">Не проверены</button><button data-filter="missing">Без макета</button></div>
+<div class="catalog-layout"><nav class="date-nav" id="date-nav" aria-label="Переход к дате"></nav><div id="catalog" aria-live="polite"><div class="loading">Загружаем ссылки…</div></div></div>
+<div class="footnote"><span class="small-dot"></span><p>Пометки «Проверено» проставлены по подтверждению пользователя. Акции «Абсолют Страхование» ожидают проверки.</p></div>
+</main>
+<footer><span>Привет · Макеты акций</span><span id="update-time">Октябрь 2026</span></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="./app.js" defer></script>
+</body></html>
